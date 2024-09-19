@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <!-- Css Linking -->
+        <link rel="stylesheet" href="styles/style.css" />
+        <!-- Css Linking -->
+        <!-- Daisy UI Linking -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Daisy UI Linking -->
+        <!-- Font awesome -->
+        <script
+            src="https://kit.fontawesome.com/25d4ab8dca.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Font awesome -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Do Home</title>
+    </head>
+    <body>
+        <main class="w-[90%] m-auto">
+            <div class="container m-auto mt-10 mb-10">
+                <h1 class="text-4xl font-extrabold">To Do List</h1>
+
+                <div>
+                    <input
+                        id="input-text"
+                        type="text"
+                        placeholder="Add Your Task"
+                        class="mt-10 input input-bordered input-success sm:w-[70%] max-w-xs"
+                    /><button id="add" class="sm: ml-2 btn btn-success">
+                        Add
+                    </button>
+                </div>
+
+                <div id="list-container" class="w-full mt-10">
+                    <h1 class="text-center mb-10 text-2xl">Here Your Task</h1>
+                </div>
+            </div>
+        </main>
+
+        <!-- Js linking -->
+        <script src="js/script.js"></script>
+        <!-- Js linking -->
+    </body>
+</html>
