@@ -23,9 +23,16 @@
         <title>To Do Home</title>
     </head>
     <body>
-        <main class="w-[90%] m-auto">
-            <div class="container m-auto mt-10 mb-10">
-                <h1 class="text-4xl font-extrabold">To Do List</h1>
+        <main
+            class="w-[90%] h-[100vh] m-auto flex justify-center lg:items-center md:items-center"
+        >
+            <div
+                class="max-h-[90vh] container m-auto mt-10 mb-10 w-[100%] md:w-[50%] lg:w-[50%] md:border lg:border border-[#00a96e] p-2 md:p-5 lg:p-5 rounded-lg overflow-auto"
+            >
+                <h1 class="text-4xl font-extrabold flex gap-4">
+                    To Do List
+                    <img id="to-do-icon" src="images/to-do-list.png" />
+                </h1>
 
                 <div>
                     <input

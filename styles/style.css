@@ -1,10 +1,4 @@
-.list {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #00935f;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-.list-container {
-    display: flex;
+#to-do-icon {
+    width: 40px;
+    height: 40px;
 }
